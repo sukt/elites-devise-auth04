@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  
+  resources :dashboards,:only =>:index
+  
   devise_for :users
   root 'welcome#index'
 
