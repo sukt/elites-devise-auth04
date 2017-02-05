@@ -18,6 +18,7 @@ Rails.application.configure do
   
   # Print deprecation notices to the Rails logger.
   config.action_mailer.default_url_options = { host: 'elites-devise-auth04-suk04.c9users.io'}
+  config.action_mailer.delivery_method = :letter_opener_web
   
   config.active_support.deprecation = :log
 
